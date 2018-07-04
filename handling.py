@@ -19,3 +19,5 @@ try:
 
 except FileNotFoundError as e:
     print(e.filename)
+    
+# We added it here just for fun
