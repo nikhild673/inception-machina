@@ -1,8 +1,8 @@
 try:
-    a = 9
+    a = 7
     #b = a/0                             #Zero division error
-    f = open("abc.txt")                 #File not found
-    for line in f:
+    h = open("abc.txt")                 #File not found
+    for line in h:
         print(line)
 
 # except FileNotFoundError:
